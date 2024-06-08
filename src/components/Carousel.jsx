@@ -49,8 +49,6 @@ const CssCarousel = styled.div`
     width: 3.5rem;
     height: 3.5rem;
     text-align: center;
-
-    
     z-index: 10;
     &::before {
       content: '';
@@ -60,15 +58,14 @@ const CssCarousel = styled.div`
       background-size: cover;
       background-repeat: no-repeat;
       /* right: 15%; */
-      top: 60%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       /* transform: ; */
       /* top: -5px; */
       width: 1.8rem;
       height: 2rem;
-      border-radius: 50%;
-      
+      border-radius: 50%; 
     }
 
     &:after {
@@ -78,8 +75,6 @@ const CssCarousel = styled.div`
 }
 
 .swiper-button-prev{
-
-   
     /* height: 1rem; */
     left: 25px;
     top: 50%;
